@@ -2,10 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <h2 className={`mb-3 text-2xl font-semibold`}>Faisal Khalid</h2>
+      <div className="relative">
+        <h2 className={`mb-3 text-8xl text-white font-semibold`}>Faisal Khalid</h2>
+
+        <ul className="inline-block">
+          <li className="inline"><a href="https://www.linkedin.com/in/faisalfab/" className="text-white text-2xl hover:underline">Linkdin</a></li>
+          <li className="inline ml-6"><a href="https://api.whatsapp.com/send?phone=03344517234" className="text-white text-2xl hover:underline">Whatsapp</a></li>
+        </ul>
       </div>
 
     </main>
